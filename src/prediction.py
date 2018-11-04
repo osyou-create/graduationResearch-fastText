@@ -4,11 +4,11 @@ import MeCab
 import re
 import datetime
 
-now = datetime.datetime.today().strftime("%m%d_%H%M")
+name = "test01"
 
-MODEL_FILE = "../bin/model1006_1925.bin"
-TEST_FILE = "../data/test.txt"
-OUTPUT_FILE = f"../bin/model{now}.csv"
+MODEL_FILE = "../bin/model1007_0003.bin"
+TEST_FILE = f"../data/{name}.txt"
+OUTPUT_FILE = f"../bin/{name}.csv"
 
 def main():
     classifier = ft.load_model(MODEL_FILE)

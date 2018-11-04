@@ -3,7 +3,7 @@ import fastText as ft
 import datetime
 
 INPUT_FILE = "hiniku_input01"
-TEST_FILE = "test"
+TEST_FILE = "test02"
 
 def print_result(N, p, r):
     print("N\t" + str(N))

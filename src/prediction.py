@@ -4,9 +4,9 @@ import MeCab
 import re
 import datetime
 
-name = "test01"
+name = "test10"
 
-MODEL_FILE = "../bin/model1007_0003.bin"
+MODEL_FILE = "../bin/model1118_1057.bin"
 TEST_FILE = f"../data/{name}.txt"
 OUTPUT_FILE = f"../bin/{name}.csv"
 

@@ -2,8 +2,9 @@ import sys
 import fastText as ft
 import datetime
 
-INPUT_FILE = "hiniku_input01"
-TEST_FILE = "test02"
+NUM="10"
+INPUT_FILE = f"data{NUM}"
+TEST_FILE = f"test{NUM}"
 
 def print_result(N, p, r):
     print("N\t" + str(N))
